@@ -1,0 +1,67 @@
+    1  ip a
+    2  reboot
+    3  ip a
+    4  systemctl staus docker
+    5  systemctl status docker
+    6  ~df -
+    7  df -h
+    8  ll
+    9  cd /home/k
+   10  cd /home/jose.mendes/
+   11  ll
+   12  yum update -y && yum install docker
+   13  systemctl status docker
+   14  systemctl start docker
+   15  docker pull geerlingguy/docker-centos8-ansible:latest
+   16  docker ps
+   17  docker run --detach --privileged --volume=/sys/fs/cgroup:/sys/fs/cgroup:ro geerlingguy/docker-centos8-ansible:latest
+   18  sible/roles/role_under_test:ro
+   19  tainer_id] env TERM=xterm ansible --version
+   20  tainer_id] env TERM=xterm ansible-playbook /path/to/ansible/playbook.yml --syntax-check
+   21  --volume=`pwd`:/etc/ansible/roles/role_under_test:ro
+   22  docker ps
+   23  docker exec --tty 0c6adeff8e85 env TERM=xterm ansible --version
+   24  docker attach 0c6adeff8e85
+   25  docker ps
+   26  docker exec --tty 0c6adeff8e85 env TERM=xterm ansible --version
+   27  systemctl status docker
+   28  docker exec --tty 0c6adeff8e85 env TERM=xterm ansible --version
+   29  docker run --detach --privileged --volume=/sys/fs/cgroup:/sys/fs/cgroup:ro geerlingguy/docker-centos8-ansible:latest
+   30  docker ps
+   31  docker attach jovial_bardeen
+   32  docker ps
+   33  docker run --privileged --volume=/sys/fs/cgroup:/sys/fs/cgroup:ro geerlingguy/docker-centos8-ansible:latest
+   34  docker run ---it privileged --volume=/sys/fs/cgroup:/sys/fs/cgroup:ro geerlingguy/docker-centos8-ansible:latest
+   35  docker run -it privileged --volume=/sys/fs/cgroup:/sys/fs/cgroup:ro geerlingguy/docker-centos8-ansible:latest
+   36  docker run -it geerlingguy/docker-centos8-ansible:latest
+   37  ip a
+   38  logout
+   39  ip a
+   40  history
+   41  systemctl status artifactory.service
+   42  docker+artifactory+memoryrights
+   43  cd /tmp/
+   44  ll
+   45  wget -O artifactory-pro.rpm "https://releases.jfrog.io/artifactory/artifactory-pro-rpms/jfrog-artifactory-pro/jfrog-artifactory-pro-[RELEASE].rpm"
+   46  yum install wget
+   47  wget -O artifactory-pro.rpm "https://releases.jfrog.io/artifactory/artifactory-pro-rpms/jfrog-artifactory-pro/jfrog-artifactory-pro-[RELEASE].rpm"
+   48  sudo wget -O artifactory-pro.rpm "https://releases.jfrog.io/artifactory/artifactory-pro-rpms/jfrog-artifactory-pro/jfrog-artifactory-pro-[RELEASE].rpm"
+   49  yum install rpm
+   50  sudo wget -O artifactory-pro.rpm "https://releases.jfrog.io/artifactory/artifactory-pro-rpms/jfrog-artifactory-pro/jfrog-artifactory-pro-[RELEASE].rpm"
+   51  wget -O artifactory-pro.rpm "https://releases.jfrog.io/artifactory/artifactory-pro-rpms/jfrog-artifactory-pro/jfrog-artifactory-pro-[RELEASE].rpm"
+   52  wget
+   53  wget -V
+   54  yum install wget -y
+   55  wget -V
+   56  wget -O artifactory-pro.rpm "https://releases.jfrog.io/artifactory/artifactory-pro-rpms/jfrog-artifactory-pro/jfrog-artifactory-pro-[RELEASE].rpm"
+   57  sudo yum install ./artifactory-pro.rpm -y
+   58  sudo systemctl status artifactory.service
+   59  sudo systemctl start artifactory.service
+   60  sudo systemctl status artifactory.service
+   61  systemctl status firewalld
+   62  systemctl stopfirewalld
+   63  systemctl stop firewalld
+   64  ip a
+   65  ll
+   66  history
+   67  history > install-jfrog.sh
