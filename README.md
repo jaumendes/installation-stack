@@ -19,7 +19,7 @@ sudo systemctl status artifactory.service
 ### Install Jboss Wildfly on CentOS 7
 ## https://linuxize.com/post/how-to-install-wildfly-on-centos-7/
 
-### Install Ansible on top of Docker
+### Install docker no centOS 8 - install Ansible on top of Docker image
 ```yum install docker -y 
 systemctl start docker 
 docker pull centos 
